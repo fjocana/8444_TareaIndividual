@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<equipos_de_futbol>
+   <equipo>
+      <nombre>Fc. Barcelona</nombre>
+      <ciudad>Barcelona</ciudad>
+      <entrenador></entrenador>
+      <jugadores>
+         <jugador posicion="portero">
+            <nombre>Ters Tegen</nombre>
+            <nacionalidad>Alemania</nacionalidad>
+         </jugador>
+         <jugador posicion="medio">
+            <nombre>Frankie de Jon</nombre>
+            <nacionalidad>Holandes</nacionalidad>
+         </jugador>
+      </jugadores>
+   </equipo>
+   <equipo>
+      <nombre>PSG</nombre>
+      <ciudad>Paris</ciudad>
+      <entrenador></entrenador>
+      <jugadores>
+         <jugador posicion="portero">
+            <nombre>Gianluigi Donnarumma</nombre>
+            <nacionalidad>Italiano</nacionalidad>
+         </jugador>
+         <jugador posicion="defensa">
+            <nombre>Lionel Messi</nombre>
+            <nacionalidad>Argentina</nacionalidad>
+         </jugador>
+      </jugadores>
+   </equipo>
+</equipos_de_futbol>
+

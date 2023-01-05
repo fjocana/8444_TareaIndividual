@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,300,700' rel='stylesheet' type='text/css'>
+  <link href="http://fonts.googleapis.com/css?family=Crimson+Text:400,600" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bxslider/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/magnific-popup/magnific-popup.css">
+</head>
+<body>
+
+<h2>Análisis de una matriz JSON.</h2>
+<p>Los datos escritos como una matriz JSON se analizarán en una matriz JavaScript.</p>
+<p id="demo"></p>
+
+<script>
+const text = '[ "Santiago", "Eunice", "Santiago", "Dino" ]';
+const myArr = JSON.parse(text);
+document.getElementById("demo").innerHTML = myArr[0]+ ',' +myArr[1]+ ',' +myArr[2]+ ',' + myArr[3];
+</script>
+
+<div class="view-more">
+    <a href="JSON.html" class="btn btn-lg btn-primary " style="color: white;">Regresar</a>
+</div>
+</body>
+</html>
+
+
